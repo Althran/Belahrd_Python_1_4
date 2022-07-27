@@ -7,9 +7,8 @@
 
 
 def intersection_update(set_1: set, set_2: set) -> set:
-    # TODO вставить код сюда
-    return set_1.intersection_update(set_2)
-
+    set_1.intersection_update(set_2)
+    return set_1
 
 if __name__ == '__main__':
     some_set = {1, 2, 3, 4}
