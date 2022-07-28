@@ -32,7 +32,7 @@ def get_planet_name(planet_num: int) -> str:
         7: "Уран",
         8: "Нептун"
     }
-    return result[planet_num]
+    return result.get(planet_num)
 
 
 if __name__ == '__main__':

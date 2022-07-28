@@ -35,7 +35,7 @@ def month_to_season(month: int) -> str:
               10: 'Осень',
               11: 'Осень',
               12: 'Зима'}
-    return season[month]
+    return season.get(month)
 
 
 if __name__ == '__main__':

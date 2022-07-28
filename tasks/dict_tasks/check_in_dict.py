@@ -34,7 +34,7 @@ USERS = {
 
 def check_in(users: dict, key: Any) -> bool:
     # TODO вставить код сюда
-    result = users[key]
+    result = users.get(key)
     return result
 
 
